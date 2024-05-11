@@ -1,0 +1,135 @@
+.rotate-on-hover:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: rotateY(180deg);
+}
+
+.hide-on-hover {
+  display: block;
+  margin-top: -100px;
+  opacity: 0;
+  transition: margin-top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.col-md-4:hover .hide-on-hover,
+.col-md-12:hover .hide-on-hover {
+  margin-top: 0;
+  opacity: 1;
+}
+
+/* @media (max-width: 768px) {
+  .container {
+    padding: 20px; 
+  }
+
+  .row.text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    height: 340px;
+    margin-bottom: 20px; 
+  }
+
+  .col-md-4:hover + .row.text-center {
+    margin-top: 150px; 
+  }
+
+  .hide-on-hover {
+    margin-top: 10px;
+  }
+} */
+/* @media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+  p.section-subheading{
+    margin-right: -15% !important;
+  }
+  
+  .row.text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    height: 340px;
+    margin-left:20% ;
+ 
+  }
+  .col-md-12{
+    height: 340px;
+    margin-left:20% ;
+    margin-bottom: -80px;
+  }
+  .col-md-4:hover + .row.text-center {
+    margin-top: 150px;
+  }
+
+  .hide-on-hover {
+    margin-top: 10px;
+  }
+  
+} */
+/* @media (max-width: 320px) {
+  .container {
+    padding: 10px;
+  }
+  p.section-subheading{
+    margin-right: -15% !important;
+  }
+  
+  .row.text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-md-4 {
+    height: 340px;
+    margin-left:5% ;
+ 
+  }
+  .col-md-12{
+    height: 340px;
+    margin-left:5% ;
+    margin-bottom: -80px;
+  }
+  .col-md-4:hover + .row.text-center {
+    margin-top: 150px; 
+  }
+
+  .hide-on-hover {
+    margin-top: 10px;
+  }
+  
+} */
+
+
+@media screen and (max-width: 414px) {
+  .gst {
+    margin-bottom: 60px;
+  }
+  
+  .roc {
+    margin-bottom: 30px;
+  }
+  
+  .visibility-publicity {
+    margin-bottom: 70px;
+  }
+
+  .income-tax {
+    margin-bottom: 100px;
+  }
+  
+  .audit {
+    margin-bottom: 100px;
+  }
+/* ps-esi */
+  .increased-margin {
+    margin-bottom: 100px !important;
+  }
+}

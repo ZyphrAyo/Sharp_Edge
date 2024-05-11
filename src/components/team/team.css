@@ -1,0 +1,125 @@
+.social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #696b70;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin-bottom: -10px; /* Adjust this value as needed */
+  position: relative;
+  top: -80px; /* Adjust this value as needed */
+  
+}
+
+.social:hover {
+  background-color: #45474b;
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+.team-member:hover .additional-info::before {
+  content: "";
+  display: block;
+  width: 100%; /* Change this to 0 initially */
+  height: 100%;
+  background-color: #3498db; /* Change this to your desired background color */
+  position: absolute;
+  top: 50px; /* Adjust this value to position it just below the social buttons */
+  left: 0;
+  z-index: -1;
+  animation: revealText 0.8s forwards;
+  cursor: pointer;
+}
+
+@keyframes revealText {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.additional-info {
+  position: relative;
+}
+
+.large {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.team-member:hover .large {
+  opacity: 1;
+  transform: translateY(5);
+}
+
+/* @media (max-width: 480px) {
+  .team-member {
+   margin-left: 20%; 
+  }
+
+  .team-member img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .additional-info::before {
+    top: 50px; 
+  }
+
+  .large {
+    transform: translateY(0);
+  }
+} */
+
+/* @media (max-width: 320px) {
+  .team-member {
+   margin-left: 5%; 
+  }
+
+  .team-member img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .additional-info::before {
+    top: 50px;
+  }
+
+  .large {
+    transform: translateY(0);
+  }
+} */
+.popup-info {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  text-align: center;
+  border-radius: 10px;
+  height: 70%;
+  width: 50%;
+}
+
+.popup-info img {
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
