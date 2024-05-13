@@ -20,9 +20,7 @@ import React from 'react'; import './services.css'; const Services = () => {
       </div>
       
         <div className="text-center">
-          {/*
-          <h2 className="section-heading text-uppercase">Services</h2>
-          */}
+        
         </div>
         <div className="row text-center">
           <div className="col-md-4 ">
@@ -63,7 +61,7 @@ import React from 'react'; import './services.css'; const Services = () => {
           </div>
         </div>
       
-      {/* 2nd section */}
+  
       
   
         <div className="row text-center">
@@ -106,7 +104,7 @@ import React from 'react'; import './services.css'; const Services = () => {
           </div>
         </div>
 
-      {/* 3rd section */}
+      
  
         <div className="row text-center">
           <div className="col-md-4">
@@ -186,7 +184,7 @@ import React from 'react'; import './services.css'; const Services = () => {
           </div>
         </div>
 
-      {/* 5th section */}
+      
 
   
         <div className="row text-center">

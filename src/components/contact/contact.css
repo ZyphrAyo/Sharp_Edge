@@ -2,66 +2,12 @@
 .form-group {
     width: 100%; 
 }
-  
-/* @media (max-width: 768px) {
-    .page-section {
-        width: 150%; 
-        margin: 0 -15px; 
-        box-sizing: border-box; 
-    }
-    
-    .form-group {
-        width: 100%;
-        margin: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    .page-section {
-        width: 290%; 
-        margin: 0 -15px; 
-        box-sizing: border-box;
-    
-    }
-    h2.section-heading {
-        margin-right: 25% !important;
-    }
-    h3.section-subheading {
-        margin-right: 25% !important;
-    }
-    .form-group {
-        width: 80%; 
-        margin: auto;
-    }
-}
-
-
-@media (max-width: 320px) {
-    .page-section {
-        width: 320%; 
-        margin: 0 -15px; 
-        box-sizing: border-box; 
-    
-    }
-    h2.section-heading {
-        margin-right: 20% !important;
-    }
-    h3.section-subheading {
-        margin-right: 20% !important;
-    }
-    .form-group {
-        width: 80%; 
-        margin: auto; 
-    }
-} */
-
 
 @media only screen and (max-width: 767px) {
-    /* Adjust button width and font size */
     #submitButton {
-      max-width: 150px; /* Adjust as needed */
+      max-width: 150px;
       width: 100%;
-      font-size: 14px; /* Adjust font size as needed */
+      font-size: 14px;
     }
   }
   

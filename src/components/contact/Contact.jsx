@@ -21,9 +21,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = 'service_wdd02uq';
-    const templateID = 'template_sqyvzv3';
-    const userID = 'XSSDNlqccw5zNj_gs';
+    const serviceID = 'service_zbh0o99';
+    const templateID = 'template_vdd755j';
+    const userID = 'VdK-2gGV1MV6UYlTr';
 
     const data = {
       from_name: formData.name,
@@ -36,8 +36,6 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         document.getElementById('submitSuccessMessage').classList.remove('d-none');
-
-        // Hide success message after 2 seconds
         setTimeout(() => {
           document.getElementById('submitSuccessMessage').classList.add('d-none');
         }, 2000);
@@ -55,12 +53,10 @@ const Contact = () => {
           <h3 className="section-subheading text-muted">Get in touch with us!</h3>
         </div>
 
-        {/* SB Forms Contact Form */}
         <form id="contactForm" onSubmit={handleSubmit}>
           <div className="row align-items-stretch mb-5">
             <div className="col-md-6">
               <div className="form-group">
-                {/* Name input */}
                 <input
                   className="form-control"
                   id="name"
@@ -74,7 +70,6 @@ const Contact = () => {
                 </div>
               </div>
               <div className="form-group">
-                {/* Email address input */}
                 <input
                   className="form-control"
                   id="email"
@@ -91,7 +86,6 @@ const Contact = () => {
                 </div>
               </div>
               <div className="form-group mb-md-0">
-                {/* Phone number input */}
                 <input
                   className="form-control"
                   id="phone"
@@ -107,7 +101,6 @@ const Contact = () => {
             </div>
             <div className="col-md-6">
               <div className="form-group form-group-textarea mb-md-0">
-                {/* Message input */}
                 <textarea
                   className="form-control"
                   id="message"
@@ -122,7 +115,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Submit success message */}
           <div className="d-none" id="submitSuccessMessage">
             <div className="text-center text-white mb-3">
               <div className="fw-bolder">Form submission successful!</div>
@@ -131,12 +123,10 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Submit error message */}
           <div className="d-none" id="submitErrorMessage">
             <div className="text-center text-danger mb-3">Error sending message!</div>
           </div>
 
-          {/* Submit Button */}
           <div className="text-center">
             <button
               className="btn btn-primary btn-xl text-uppercase cursor:pointer"

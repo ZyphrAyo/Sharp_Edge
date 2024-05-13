@@ -1,36 +1,36 @@
-/* Default margin-top value */
+
 #about h1.section-heading {
-  margin-top: -58vh; /* Default value for desktop screens */
+  margin-top: -58vh; 
 }
 
-/* Media query for desktop screens */
+
 @media screen and (min-width: 1024px) {
   #about h1.section-heading {
-    margin-top: -14vh; /* Maintain the same margin-top value for desktop screens */
+    margin-top: -14vh;
   }
 }
 
-/* Media queries for smaller screens */
+
 @media screen and (max-width: 412px) and (min-width: 412px) {
   #about h1.section-heading {
-    margin-top: -60vh; /* For screens up to 412px */
+    margin-top: -60vh; 
   }
 }
 
 @media screen and (max-width: 360px) {
   #about h1.section-heading {
-    margin-top: -20vh; /* For screens up to 360px */
+    margin-top: -20vh; 
   }
 }
 
 @media screen and (max-width: 375px) and (min-width: 370px) {
   #about h1.section-heading {
-    margin-top: -14vh; /* For screens between 370px and 374px */
+    margin-top: -14vh; 
   }
 }
 
 @media screen and (max-width: 370px) and (min-width: 361px) {
   #about h1.section-heading {
-    margin-top: -14vh; /* For screens between 361px and 369px */
+    margin-top: -14vh; 
   }
 }

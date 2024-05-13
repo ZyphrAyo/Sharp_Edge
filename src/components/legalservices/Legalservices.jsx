@@ -1,5 +1,5 @@
 import React from 'react';
-// import './legalservices.css';
+
 const Legalservices = () => {
   return (
     <section className="page-section" id="legalservices">
@@ -13,7 +13,7 @@ const Legalservices = () => {
       </div>
       <div className="container">
         <div className="text-center">
-          {/* <h2 className="section-heading text-uppercase">Services</h2> */}
+       
         </div>
         <div className="row text-center">
           <div className="col-md-4 " >

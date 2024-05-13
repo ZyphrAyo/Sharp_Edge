@@ -54,7 +54,7 @@
   animation: none;
 }
 
-/* Animation for constant movement */
+
 @keyframes moveRight {
   0% {
     transform: translateX(0);
@@ -187,7 +187,7 @@
   }
 
   .gradient-overlay {
-    height: 32%; /* Increase the height as needed */
+    height: 32%;
   }
 
   .swiper-image {
@@ -199,9 +199,9 @@
     margin-top: 40%;
   }
   .masthead-heading {
-    font-size: 1.5rem !important; /* Adjust the font size as needed */
-    padding-bottom: -5%; /* Adjust the padding as needed */
-    margin-top: -5%; /* Move the heading upwards */
+    font-size: 1.5rem !important;
+    padding-bottom: -5%; 
+    margin-top: -5%; 
   }
 
   .swiper-button-next,
@@ -213,8 +213,8 @@
 
   .btn {
     margin-right: 0;
-    font-size: 15px; /* Adjust the font size as needed */
-    padding: 0px 10px; /* Adjust the padding as needed */
+    font-size: 15px; 
+    padding: 0px 10px;
   }
 
   .swiper-pagination-bullet {
@@ -232,7 +232,7 @@
   }
 
   .gradient-overlay {
-    height: 34%; /* Increase the height as needed */
+    height: 34%; 
   }
 
   .swiper-image {
@@ -244,9 +244,9 @@
     margin-top: 40%;
   }
   .masthead-heading {
-    font-size: 1.5rem !important; /* Adjust the font size as needed */
-    padding-bottom: -5%; /* Adjust the padding as needed */
-    margin-top: -5%; /* Move the heading upwards */
+    font-size: 1.5rem !important; 
+    padding-bottom: -5%; 
+    margin-top: -5%; 
   }
 
   .swiper-button-next,
@@ -258,8 +258,8 @@
 
   .btn {
     margin-right: 0;
-    font-size: 15px; /* Adjust the font size as needed */
-    padding: 0px 10px; /* Adjust the padding as needed */
+    font-size: 15px; 
+    padding: 0px 10px; 
   }
 
   .swiper-pagination-bullet {
@@ -269,16 +269,16 @@
 
 @media (max-width: 340px) {
   .swiper-slide {
-    margin-top: 129px; /* Adjust the margin-top value as needed */
+    margin-top: 129px;
   }
 }
 
 @media (max-width: 414px) {
   .swiper-slide {
-    margin-top: 87.5px; /* Adjust the margin-top value as needed */
+    margin-top: 87.5px;
   }
   .gradient-overlay {
-    /* height: 34.2%; */
+    
      display: none;
   }
   .btn{
@@ -287,10 +287,10 @@
   }
   .masthead-heading {
     color: #ffd500;
-    font-size: 1.7rem !important; /* Adjust the font size as needed */
-    padding-bottom: -3% !important; /* Adjust the padding as needed */
+    font-size: 1.7rem !important; 
+    padding-bottom: -3% !important; 
     margin-left: 5px;
-    margin-top: -12%; /* Move the heading upwards */
+    margin-top: -12%;
   }
   
   .swiper-button-next,

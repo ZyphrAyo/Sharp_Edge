@@ -34,9 +34,9 @@ function Navbar() {
 
     setTimeout(() => {
       setTogglerActive(false);
-    }, 2000); // 1000 milliseconds (1 second)
+    }, 2000); 
 
-    // Additional logic for handling other click events if needed
+   
   };
 
   const navbarStyle = {
@@ -102,33 +102,14 @@ function Navbar() {
                   Services
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#portfolio">
-                  Portfolio
-                </a>
-              </li> */}
+              
               <li className="nav-item">
                 <a className="nav-link" href="#team">
                   Team
                 </a>
               </li>
               
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#newsroom">
-                  News Room
-                </a>
-              </li> */}
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  Gallery
-                </a>
-              </li> */}
-              
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#digitalmarketing">
-                  Digital Marketing
-                </a>
-              </li> */}
+             
               <li className="nav-item">
                 <a className="nav-link" href="#contact">
                   Contact

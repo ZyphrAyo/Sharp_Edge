@@ -9,7 +9,7 @@ const Portfolio = () => {
           <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
         <div className="row">
-          {/* Portfolio item 1 */}
+         
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
               <a className="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">

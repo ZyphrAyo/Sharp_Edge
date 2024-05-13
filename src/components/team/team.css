@@ -9,9 +9,9 @@
   text-decoration: none;
   color: white;
   transition: background-color 0.3s ease;
-  margin-bottom: -10px; /* Adjust this value as needed */
+  margin-bottom: -10px;
   position: relative;
-  top: -80px; /* Adjust this value as needed */
+  top: -80px; 
   
 }
 
@@ -24,11 +24,11 @@
 .team-member:hover .additional-info::before {
   content: "";
   display: block;
-  width: 100%; /* Change this to 0 initially */
+  width: 100%; 
   height: 100%;
-  background-color: #3498db; /* Change this to your desired background color */
+  background-color: #3498db; 
   position: absolute;
-  top: 50px; /* Adjust this value to position it just below the social buttons */
+  top: 50px; 
   left: 0;
   z-index: -1;
   animation: revealText 0.8s forwards;
@@ -59,43 +59,6 @@
   transform: translateY(5);
 }
 
-/* @media (max-width: 480px) {
-  .team-member {
-   margin-left: 20%; 
-  }
-
-  .team-member img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .additional-info::before {
-    top: 50px; 
-  }
-
-  .large {
-    transform: translateY(0);
-  }
-} */
-
-/* @media (max-width: 320px) {
-  .team-member {
-   margin-left: 5%; 
-  }
-
-  .team-member img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .additional-info::before {
-    top: 50px;
-  }
-
-  .large {
-    transform: translateY(0);
-  }
-} */
 .popup-info {
   position: fixed;
   top: 50%;

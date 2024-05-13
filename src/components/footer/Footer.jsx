@@ -51,7 +51,6 @@ const Footer = () => {
                   <img src="https://i.postimg.cc/Pxp36qLq/white-logo.png" alt="Logo" style={{height:"30px",marginBottom:"10px"}}/>
                   <span className="footer-heading"> The Sharp Edge </span>
                   <div  className="subscribe-form" style={{fontSize:"10px",lineHeight:"20px"}}>
-                
                 <span className="subheading" style={{  whiteSpace: "nowrap"}}>Multi-disciplinary Partnership (MDP) Firm <br />Don't ever let your business get ahead of the financial side of your business.<br/> Accounting, accounting, accounting. Know your numbers.</span>
                 <ul className='socials' style={{zIndex:"999"}}>
                   <li><CiFacebook style={{ fontSize: "35px" }}/></li>
@@ -61,23 +60,7 @@ const Footer = () => {
 
               </div>
                 </div>
-                {/* <div className="col-md-4 mb-md-0 mb-4">
-                  <h2 className="footer-heading">Company</h2>
-                  <ul className="list-unstyled">
-                    <li><a href="#" className="d-block">Our services</a></li>
-                    <li><a href="#" className="d-block">Clients</a></li>
-                    <li><a href="#" className="d-block">Contact</a></li>
-                    <li><a href="#" className="d-block">Press</a></li>
-                  </ul>
-                </div> */}
-                {/* <div className="col-md-4 mb-md-0 mb-4">
-                  <h2 className="footer-heading">Resources</h2>
-                  <ul className="list-unstyled">
-                    <li><a href="#" className="d-block">Blog</a></li>
-                    <li><a href="#" className="d-block">Newsletter</a></li>
-                    <li><a href="#" className="d-block">Privacy Policy</a></li>
-                  </ul>
-                </div> */}
+                
               </div>
             </div>
             <div className="col-md-5 mb-md-0 mb-4">
@@ -91,13 +74,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-5 pt-2 border-top">
+          {/* <div className="row mt-5 pt-2 border-top"> */}
             <div className="col-md-6 col-lg-8 mb-md-0 mb-4">
-              <p className="copyright mb-0" style={{fontSize:"10.5px"}}>
+              {/* <p className="copyright mb-0" style={{fontSize:"10.5px"}}>
                 Copyright &copy;All rights reserved. | This Website is designed by <a href="https://www.linkedin.com/in/niladri-howladar-39a287297/">Niladri Howladar</a>
-              </p>
-            </div>
-            
+              </p> */}
+            {/* </div> */}
           </div>
         </div>
       </footer>

@@ -29,7 +29,6 @@ The professional work which is being handled is annexed along-with a detailed li
           <h3 className="section-subheading text-muted">We are here to serve you the best as possible with a minimum and affordable fee.</h3>
         </div>
         <ul className="timeline">
-          {/* Timeline item 1 */}
           <li>
             <div className="timeline-image"><img className="rounded-circle img-fluid" src="https://i.postimg.cc/6Tx61Nz9/imresizer-1701783300194.jpg" alt="..." /></div>
             <div className="timeline-panel">
@@ -42,7 +41,6 @@ finance and are there to help you in managing your files in the best possible wa
             </div>
           </li>
 
-          {/* Timeline item 2 */}
           <li className="timeline-inverted">
             <div className="timeline-image"><img className="rounded-circle img-fluid" src="https://i.postimg.cc/Dy51H2Rj/imresizer-1701783830498.jpg" alt="..." /></div>
             <div className="timeline-panel">
@@ -54,7 +52,7 @@ finance and are there to help you in managing your files in the best possible wa
             </div>
           </li>
 
-          {/* Timeline item 3 */}
+          
           <li>
             <div className="timeline-image"><img className="rounded-circle img-fluid" src="https://i.postimg.cc/hG3H4W6c/imresizer-1701784803624.jpg" alt="..." /></div>
             <div className="timeline-panel">
@@ -67,7 +65,7 @@ finance and are there to help you in managing your files in the best possible wa
             </div>
           </li>
 
-          {/* Timeline item 4 */}
+         
           <li className="timeline-inverted">
             <div className="timeline-image"><img className="rounded-circle img-fluid" src="https://i.postimg.cc/YCnZrBL8/imresizer-1701784038144.jpg" alt="..." /></div>
             <div className="timeline-panel">

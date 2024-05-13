@@ -1,4 +1,4 @@
-// Import necessary dependencies
+
 import React from 'react';
 import { FaDigitalTachograph } from 'react-icons/fa';
 import { ImHammer2 } from 'react-icons/im';
@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 import './Masthead.css';
 
 const Masthead = () => {
-  // Array of image links
+
   const images = [
     'https://images.pexels.com/photos/935979/pexels-photo-935979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
